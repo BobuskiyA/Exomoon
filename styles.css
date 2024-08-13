@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   overflow: hidden;
@@ -26,7 +30,7 @@ html {
 }
 
 .hero__titles {
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-right: 6vw;
 }
 
@@ -103,6 +107,18 @@ html {
   font-size: 19px;
   font-weight: 500;
 }
+.hero-rose {
+  position: absolute;
+  width: 426px;
+  height: 368px;
+}
+.hero-rose-1 {
+  top: -50px;
+  left: -16px;
+}
+.hero-rose-2 {
+  right: 13px;
+}
 
 @media (max-width: 430px) {
   .hero__titles {
@@ -145,7 +161,7 @@ html {
 
   .hero__button {
     display: flex;
-    margin-top: 81vw;
+    margin-top: 75vw;
     background-color: #ffd000;
     padding: 10px;
     align-items: flex-end;
@@ -161,10 +177,24 @@ html {
     gap: 10px;
   }
   .hero__item {
-    width: 100%;
+    width: 70%;
   }
 
   .hero__number {
     margin-right: 4vw;
+  }
+
+  .hero-rose {
+    position: absolute;
+    width: 282.73px;
+    height: 244.23px;
+  }
+  .hero-rose-1 {
+    top: 24%;
+    left: -24%;
+  }
+  .hero-rose-2 {
+    top: 24%;
+    right: -18%;
   }
 }
