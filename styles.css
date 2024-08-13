@@ -77,12 +77,22 @@ html {
 }
 
 .hero__button {
+  text-decoration: none;
   background-color: #ffd000;
   padding: 45px 72px 45px 72px;
   color: #d90000;
   border-radius: 14px;
   font-size: 36px;
   height: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+.hero__button:hover {
+  background-color: ##ffd000b5;
+}
+.hero__button:hover {
+  background-color: #8f7919;
 }
 
 .hero__items {
