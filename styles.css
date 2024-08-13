@@ -1,0 +1,170 @@
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./img/back.jpg");
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__container {
+  margin: 0 15vw;
+  text-align: center;
+  color: #fff;
+}
+
+.hero__titles {
+  margin-top: 3vw;
+  margin-right: 6vw;
+}
+
+.hero__title {
+  position: relative;
+  font-size: 112px;
+  margin: 0;
+}
+.hero__title img {
+  position: absolute;
+  top: 36%;
+  right: -6%;
+}
+
+.hero__price {
+  display: flex;
+  font-size: 112px;
+}
+.hero__cta {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero__cta img {
+  width: 70vw;
+  height: 70vw;
+}
+
+.hero__text {
+  display: flex;
+  font-size: 35px;
+  width: 29%;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.hero__image {
+  width: 72%;
+  height: 128%;
+  position: absolute;
+  left: 17%;
+  top: -13%;
+}
+
+.hero__button {
+  background-color: #ffd000;
+  padding: 45px 72px 45px 72px;
+  color: #d90000;
+  border-radius: 14px;
+  font-size: 36px;
+  height: 100%;
+}
+
+.hero__items {
+  display: flex;
+  gap: 32vw;
+  margin-top: 3vw;
+  position: absolute;
+}
+.hero__item {
+  display: flex;
+  width: 27%;
+}
+.hero__number {
+  margin-right: 1vw;
+  font-size: 19px;
+  font-weight: 500;
+}
+.hero__p {
+  margin: 0;
+  display: flex;
+  text-align: start;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+@media (max-width: 430px) {
+  .hero__titles {
+    margin: 0;
+    margin-top: 8vw;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+  .hero__title img {
+    position: absolute;
+    top: 107%;
+    right: -5%;
+    width: 40%;
+  }
+  .hero__price {
+    display: flex;
+    font-size: 57px;
+  }
+
+  .hero__cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hero__text {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .hero__image {
+    width: 112vw;
+    height: 112vw;
+    left: -4%;
+    top: 17%;
+  }
+
+  .hero__button {
+    display: flex;
+    margin-top: 81vw;
+    background-color: #ffd000;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .hero__p {
+    font-size: 14px;
+  }
+
+  .hero__items {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero__item {
+    width: 100%;
+  }
+
+  .hero__number {
+    margin-right: 4vw;
+  }
+}
